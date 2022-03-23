@@ -18,6 +18,6 @@
 
 <style>
     .default-container{
-        padding: 131px 10px 90px 10px;
+        padding: 140px 12px 100px 12px;
     }
 </style>
