@@ -2,10 +2,10 @@
     <header>
         <nav class="navbar">
             <div class="container-fluid justify-content-between">
-                <a class="navbar-brand d-flex align-items-center" href="/">
+                <router-link class="navbar-brand d-flex align-items-center" to="/">
                     <img src="/images/ui/logo.svg" width="45" height="45">
                     BOMBER
-                </a>
+                </router-link>
                 <div id="header__menu-toggle" onclick="document.getElementById('header__menu').classList.toggle('show')">
                     <img src="/images/ui/list.svg" width="50" height="50">
                 </div>

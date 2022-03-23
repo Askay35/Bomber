@@ -1,6 +1,8 @@
 <template>
     <Header></Header>
-    <router-view></router-view>
+    <div class="d-flex flex-column align-items-center default-container flex-grow-1">
+        <router-view></router-view>
+    </div>
     <Footer></Footer>
 </template>
 
@@ -15,5 +17,7 @@
 </script>
 
 <style>
-
+    .default-container{
+        padding: 131px 10px 90px 10px;
+    }
 </style>

@@ -12,21 +12,21 @@ let routes = [
         ]
     },
     {
-        path: '/faq',
+        path: '/',
         component: Default,
         children: [
             {
-                path: '/',
+                path: '/faq',
                 component: () => import("./components/pages/FAQ")
             }
         ]
     },
     {
-        path: '/faq',
+        path: '/',
         component: Default,
         children: [
             {
-                path: '/',
+                path: '/ref',
                 component: () => import("./components/pages/Ref")
             }
         ]

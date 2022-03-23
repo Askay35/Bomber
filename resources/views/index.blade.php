@@ -1,7 +1,8 @@
 <!doctype html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
+    <meta name="keywords" content="Bomber, bomber.best, bomber.unp, bomber сайт, bomber.plus, bomberbest, bombercash, bomber.cash, бомбер, cabura, дайс, мины, бабблс, mines, dice, bubbles, taker, тейкер, Тейкер">
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
