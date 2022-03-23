@@ -1,0 +1,38 @@
+@import "resources/scss/vars";
+body,html,#app{
+    width: 100%;
+    color:$global-text-color;
+    font-family: "Segoe UI";
+    min-height: 100vh;
+}
+.b-btn{
+    padding: 5px;
+    border-radius: 3px;
+    text-align: center;
+    font-weight: 600;
+    color: $global-text-color;
+    cursor: pointer;
+    background-color: $bg-gray;
+}
+.b-btn-blue{
+    background-color: $global-blue;
+    color:white;
+    .b-btn-blue:active{
+        background-color: $global-dark-blue;
+    }
+}
+body{
+    background: url("/images/ui/bg.png") repeat center center;
+    background-size: contain;
+}
+#app{
+    display: flex;
+    flex-direction: column;
+}
+a,a:visited,a:hover{
+    text-decoration: inherit;
+    color:inherit;
+}
+.white-svg-img:hover{
+    filter: brightness(200%) contrast(200%) saturate(0%)
+}

@@ -1,0 +1,43 @@
+body, html, #app {
+  width: 100%;
+  color: #38477c;
+  font-family: "Segoe UI";
+  min-height: 100vh;
+}
+
+.b-btn {
+  padding: 5px;
+  border-radius: 3px;
+  text-align: center;
+  font-weight: 600;
+  color: #38477c;
+  cursor: pointer;
+  background-color: #dce0ed;
+}
+
+.b-btn-blue {
+  background-color: #678DB9;
+  color: white;
+}
+.b-btn-blue .b-btn-blue:active {
+  background-color: #4f6f95;
+}
+
+body {
+  background: url("/images/ui/bg.png") repeat center center;
+  background-size: contain;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+}
+
+a, a:visited, a:hover {
+  text-decoration: inherit;
+  color: inherit;
+}
+
+.white-svg-img:hover {
+  filter: brightness(200%) contrast(200%) saturate(0%);
+}
