@@ -44,17 +44,20 @@
         }
     }
     header {
+        z-index: 1000;
         top: 0;
         left: 0;
         position: fixed;
         width: 100%;
         height: 66px;
-        &,.navbar,.container-fluid{
+        &,.navbar,.container-fluid,.header__money{
             background-color: #fff;
         }
         .navbar{
             border-bottom: 1px solid $border-gray;
             position: relative;
+            -webkit-box-shadow: 0px 0px 6px 0px #bfbfbf;
+            box-shadow: 0px 0px 6px 0px #bfbfbf;
         }
         .container-fluid{
             padding: 0 5px;

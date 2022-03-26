@@ -7,7 +7,7 @@ let routes = [
         children: [
             {
                 path: '/',
-                component: () => import("./components/pages/Home")
+                component: () => import("./components/games/Mines")
             }
         ]
     },
@@ -28,6 +28,16 @@ let routes = [
             {
                 path: '/ref',
                 component: () => import("./components/pages/Ref")
+            }
+        ]
+    },
+    {
+        path: '/',
+        component: Default,
+        children: [
+            {
+                path: '/dice',
+                component: () => import("./components/games/Dice")
             }
         ]
     }

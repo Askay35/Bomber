@@ -5,19 +5,30 @@ body,html,#app{
     font-family: "Segoe UI";
     min-height: 100vh;
 }
+.block-white{
+    width: 100%;
+    font-size: 15px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 6px;
+}
 .b-btn{
-    padding: 5px;
-    border-radius: 3px;
-    text-align: center;
-    font-weight: 600;
     color: $global-text-color;
-    cursor: pointer;
     background-color: $bg-gray;
 }
+*[class*="b-btn"]{
+    text-align: center;
+    font-weight: 600;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 3px;
+}
 .b-btn-blue{
+    border: none;
+    padding: 6px;
     background-color: $global-blue;
     color:white;
-    .b-btn-blue:active{
+    &:hover{
         background-color: $global-dark-blue;
     }
 }

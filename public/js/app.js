@@ -19849,7 +19849,7 @@ var routes = [{
   children: [{
     path: '/',
     component: function component() {
-      return __webpack_require__.e(/*! import() */ "resources_js_components_pages_Home_vue").then(__webpack_require__.bind(__webpack_require__, /*! ./components/pages/Home */ "./resources/js/components/pages/Home.vue"));
+      return __webpack_require__.e(/*! import() */ "resources_js_components_games_Mines_vue").then(__webpack_require__.bind(__webpack_require__, /*! ./components/games/Mines */ "./resources/js/components/games/Mines.vue"));
     }
   }]
 }, {
@@ -19868,6 +19868,15 @@ var routes = [{
     path: '/ref',
     component: function component() {
       return __webpack_require__.e(/*! import() */ "resources_js_components_pages_Ref_vue").then(__webpack_require__.bind(__webpack_require__, /*! ./components/pages/Ref */ "./resources/js/components/pages/Ref.vue"));
+    }
+  }]
+}, {
+  path: '/',
+  component: _components_layouts_Default__WEBPACK_IMPORTED_MODULE_0__["default"],
+  children: [{
+    path: '/dice',
+    component: function component() {
+      return __webpack_require__.e(/*! import() */ "resources_js_components_games_Dice_vue").then(__webpack_require__.bind(__webpack_require__, /*! ./components/games/Dice */ "./resources/js/components/games/Dice.vue"));
     }
   }]
 }];
@@ -19916,7 +19925,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".header__money {\n  width: 100%;\n  padding: 10px 10px 5px 10px;\n}\n.header__money .b-btn {\n  width: 49%;\n  padding: 10px 0;\n}\nheader {\n  top: 0;\n  left: 0;\n  position: fixed;\n  width: 100%;\n  height: 66px;\n}\nheader, header .navbar, header .container-fluid {\n  background-color: #fff;\n}\nheader .navbar {\n  border-bottom: 1px solid #CED4DA;\n  position: relative;\n}\nheader .container-fluid {\n  padding: 0 5px;\n}\nheader .navbar-brand {\n  font-weight: 500;\n  font-size: 24px;\n}\n#header__menu {\n  z-index: -1;\n  position: absolute;\n  top: -110%;\n  font-size: 1.2em;\n  left: 0;\n  transition: all 0.25s ease-out;\n  display: flex;\n}\n#header__menu .b-dropdown-item {\n  width: 100%;\n  background-color: #F2F2F2;\n  border-bottom: 1px solid #CED4DA;\n}\n#header__menu .b-dropdown-item:hover {\n  background-color: #dce0ed;\n}\n#header__menu .b-dropdown-item a {\n  display: flex;\n  justify-content: center;\n  padding: 10px 25px;\n  align-items: center;\n  width: 100%;\n  height: 100%;\n}\n#header__menu.show {\n  top: 100%;\n  display: flex;\n}", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".header__money {\n  width: 100%;\n  padding: 10px 10px 5px 10px;\n}\n.header__money .b-btn {\n  width: 49%;\n  padding: 10px 0;\n}\nheader {\n  z-index: 1000;\n  top: 0;\n  left: 0;\n  position: fixed;\n  width: 100%;\n  height: 66px;\n}\nheader, header .navbar, header .container-fluid, header .header__money {\n  background-color: #fff;\n}\nheader .navbar {\n  border-bottom: 1px solid #CED4DA;\n  position: relative;\n  box-shadow: 0px 0px 6px 0px #bfbfbf;\n}\nheader .container-fluid {\n  padding: 0 5px;\n}\nheader .navbar-brand {\n  font-weight: 500;\n  font-size: 24px;\n}\n#header__menu {\n  z-index: -1;\n  position: absolute;\n  top: -110%;\n  font-size: 1.2em;\n  left: 0;\n  transition: all 0.25s ease-out;\n  display: flex;\n}\n#header__menu .b-dropdown-item {\n  width: 100%;\n  background-color: #F2F2F2;\n  border-bottom: 1px solid #CED4DA;\n}\n#header__menu .b-dropdown-item:hover {\n  background-color: #dce0ed;\n}\n#header__menu .b-dropdown-item a {\n  display: flex;\n  justify-content: center;\n  padding: 10px 25px;\n  align-items: center;\n  width: 100%;\n  height: 100%;\n}\n#header__menu.show {\n  top: 100%;\n  display: flex;\n}", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -24742,7 +24751,7 @@ module.exports = JSON.parse('{"name":"axios","version":"0.21.4","description":"P
 /******/ 		// This function allow to reference async chunks
 /******/ 		__webpack_require__.u = (chunkId) => {
 /******/ 			// return url for filenames not based on template
-/******/ 			if ({"resources_js_components_pages_Home_vue":1,"resources_js_components_pages_FAQ_vue":1,"resources_js_components_pages_Ref_vue":1}[chunkId]) return "js/" + chunkId + ".js";
+/******/ 			if ({"resources_js_components_games_Mines_vue":1,"resources_js_components_pages_FAQ_vue":1,"resources_js_components_pages_Ref_vue":1,"resources_js_components_games_Dice_vue":1}[chunkId]) return "js/" + chunkId + ".js";
 /******/ 			// return url for filenames based on template
 /******/ 			return undefined;
 /******/ 		};
