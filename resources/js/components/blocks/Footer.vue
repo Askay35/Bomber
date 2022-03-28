@@ -1,7 +1,7 @@
 <template>
     <footer>
-        <div class="game-button"><img src="/images/ui/dice5.svg"></div>
-        <div class="game-button"><img src="/images/ui/grid3x3.svg"></div>
+        <div class="game-button" @click="$router.push('/dice')"><img src="/images/ui/dice5.svg"></div>
+        <div class="game-button" @click="$router.push('/')"><img src="/images/ui/grid3x3.svg"></div>
     </footer>
 </template>
 
@@ -16,6 +16,7 @@
 
     .game-button{
         display: flex;
+        cursor: pointer;
         align-items: center;
         justify-content: center;
         flex: 6;

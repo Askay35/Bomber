@@ -16,6 +16,26 @@ let routes = [
         component: Default,
         children: [
             {
+                path: '/withdraw',
+                component: () => import("./components/money/Withdraw")
+            }
+        ]
+    },
+    {
+        path: '/',
+        component: Default,
+        children: [
+            {
+                path: '/pay',
+                component: () => import("./components/money/Pay")
+            }
+        ]
+    },
+    {
+        path: '/',
+        component: Default,
+        children: [
+            {
                 path: '/faq',
                 component: () => import("./components/pages/FAQ")
             }

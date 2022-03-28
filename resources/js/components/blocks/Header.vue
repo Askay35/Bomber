@@ -11,10 +11,10 @@
                 </div>
             </div>
             <div class="header__money d-flex justify-content-between align-items-center">
-                <div class="b-btn b-btn-blue">
+                <div class="b-btn b-btn-blue" @click="$router.push('/pay')">
                     Пополнить
                 </div>
-                <div class="b-btn">
+                <div class="b-btn" @click="$router.push('/withdraw')">
                     Вывести
                 </div>
             </div>

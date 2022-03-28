@@ -231,5 +231,15 @@ return [
         'View' => Illuminate\Support\Facades\View::class,
 
     ],
-
+    /*
+       |--------------------------------------------------------------------------
+       | Application vk config
+       |--------------------------------------------------------------------------
+       */
+    'vk'=>[
+        'app_id'=>env('VK_APP_ID'),
+        'app_secret'=>env('VK_APP_SECRET'),
+        'redirect_uri'=>env('VK_REDIRECT_URI'),
+        'version'=>env('VK_API_VERSION')
+    ]
 ];

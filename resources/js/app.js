@@ -13,5 +13,7 @@ const router = createRouter({
 });
 const app = createApp(App);
 app.use(router);
+
 app.provide('csrf',document.querySelector('meta[name="csrf"]').content);
+
 app.mount('#app');

@@ -1,16 +1,16 @@
 <template>
     <div>
         <h6>
-            <strong v-html="title">
+            <strong>
+                <slot name="title"></slot>
             </strong>
         </h6>
-        <div v-html="text"/>
+        <slot name="content"></slot>
     </div>
 </template>
 
 <script>
     export default {
-        name: "TextTitle",
-        props:{text:String,title:String}
+        name: "ContentTitle",
     }
 </script>

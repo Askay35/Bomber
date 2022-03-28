@@ -5,11 +5,40 @@ body, html, #app {
   min-height: 100vh;
 }
 
-.block-white {
+.b-group {
+  display: flex;
+}
+.b-group > * {
+  border-top: 1px solid #ced4da;
+  border-bottom: 1px solid #ced4da;
+  border-right: 1px solid #ced4da;
+}
+.b-group > *:first-child {
+  border-left: 1px solid #ced4da;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.b-group > *:last-child {
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.b-inp {
+  background: none;
+  color: inherit;
+  border: 0;
+  height: 100%;
+  outline: none;
+  position: relative;
+  text-align: center;
+}
+
+.block {
+  display: flex;
+  flex-direction: column;
   width: 100%;
   font-size: 15px;
   padding: 20px;
-  background-color: #fff;
   border-radius: 6px;
 }
 
