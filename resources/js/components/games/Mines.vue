@@ -166,6 +166,10 @@
     }
 
     .mine {
+        &:not(.win,.lose):hover{
+            background-color: #f4f5f8;
+            cursor: pointer;
+        }
         background-position: 50%;
         background-repeat: no-repeat;
         background-size: 50%;

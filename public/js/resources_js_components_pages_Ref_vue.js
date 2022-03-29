@@ -320,36 +320,6 @@ var Browser = {
 
 /***/ }),
 
-/***/ "./resources/js/utils/user.js":
-/*!************************************!*\
-  !*** ./resources/js/utils/user.js ***!
-  \************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-var User = {
-  methods: {
-    getRefLink: function getRefLink() {
-      return "https://bomber.best/r/Qfkfo225Fef5fw15";
-    },
-    getRefAward: function getRefAward() {
-      return "0.00";
-    },
-    earnRefAward: function earnRefAward() {
-      console.log('user ref award ' + User.methods.getRefAward() + ' earned');
-    },
-    logout: function logout() {
-      console.log('user logged out');
-    }
-  }
-};
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (User);
-
-/***/ }),
-
 /***/ "./resources/js/components/pages/Ref.vue":
 /*!***********************************************!*\
   !*** ./resources/js/components/pages/Ref.vue ***!
